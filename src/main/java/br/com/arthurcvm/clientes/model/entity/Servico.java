@@ -1,4 +1,4 @@
-package br.com.arthurcvm.model.entity;
+package br.com.arthurcvm.clientes.model.entity;
 
 import lombok.Data;
 

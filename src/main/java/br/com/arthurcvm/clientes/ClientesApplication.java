@@ -1,4 +1,4 @@
-package br.com.arthurcvm;
+package br.com.arthurcvm.clientes;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
