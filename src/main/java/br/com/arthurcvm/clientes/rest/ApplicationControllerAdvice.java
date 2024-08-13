@@ -28,7 +28,7 @@ public class ApplicationControllerAdvice {
 
     @ExceptionHandler(ResponseStatusException.class)
     public ResponseEntity handleResponseStatusException(ResponseStatusException ex){
-        String message = ex.getMessage();
+        String message = ex.getReason();
         HttpStatus statusCode = ex.getStatus();
         ApiErrors apiErrors = new ApiErrors(message);
 
